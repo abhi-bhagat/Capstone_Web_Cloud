@@ -1,4 +1,118 @@
 .site-header {
-  font-size: 2rem; }
+  margin: 0;
+  padding: 0; }
+
+.ul-container {
+  display: none; }
+  @media screen and (min-width: 769px) {
+    .ul-container {
+      display: block; } }
+
+.primary-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start; }
+  .primary-menu li {
+    flex-basis: 150px;
+    background-color: #FF0044; }
+  .primary-menu li:first-child {
+    flex-grow: 1;
+    flex-shrink: 1; }
+  .primary-menu li a {
+    text-decoration: none;
+    color: #F3FBFF;
+    display: block;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    transition: all .5s; }
+  .primary-menu li a:hover {
+    color: #FF0044;
+    background-color: #F3FBFF; }
+
+.menu-container, .bm-burger-button {
+  display: block !important; }
+  @media screen and (min-width: 768px) {
+    .menu-container, .bm-burger-button {
+      display: none !important; } }
+
+.icon {
+  margin-right: 5px; }
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  right: 20px;
+  top: 20px;
+  display: block; }
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #FF0044; }
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #FF0083; }
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px; }
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #F3FBFF; }
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: absolute;
+  height: 100vh !important;
+  width: 100%;
+  top: 0;
+  right: 0; }
+
+/* General sidebar styles */
+.bm-menu {
+  background: #FF0044;
+  font-size: 1rem !important;
+  width: 100% !important; }
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #FF0044;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  right: 0 !important;
+  width: 100% !important; }
+
+/* Wrapper for item list */
+.bm-item-list {
+  margin-top: 40px;
+  left: 0 !important;
+  width: 100% !important; }
+
+/* Individual item */
+.bm-item {
+  color: #F3FBFF;
+  font-size: 1.25rem;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .5s; }
+
+.bm-item:hover {
+  background-color: #F3FBFF;
+  color: #FF0044; }
 
 /*# sourceMappingURL=styles.css.map */

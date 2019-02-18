@@ -4,7 +4,6 @@ import Menus from '../header/Menus'
 const Header = () => (
   <div className="site-header">
     <Menus />
-    <h1>From header</h1>
   </div>
 )
 
