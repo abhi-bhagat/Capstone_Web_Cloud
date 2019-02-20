@@ -115,4 +115,139 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background-color: #F3FBFF;
   color: #FF0044; }
 
+.intro-section {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  padding: 100px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  @media screen and (min-width: 769px) {
+    .intro-section {
+      padding: 100px 200px;
+      box-sizing: border-box; } }
+  @media screen and (min-width: 770px) and (max-width: 955px) {
+    .intro-section {
+      padding: 100px; } }
+  .intro-section h1, .intro-section p {
+    margin: 0;
+    padding: 0;
+    margin: 15px 0; }
+  .intro-section h1 {
+    font-size: 3rem;
+    font-weight: 800; }
+  .intro-section p {
+    font-size: 1.25rem;
+    font-weight: 500; }
+
+.button-container {
+  margin: 0;
+  padding: 0;
+  margin: 20px 0; }
+  @media screen and (min-width: 769px) {
+    .button-container {
+      margin: 50px 0; } }
+  .button-container button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.25rem;
+    border-radius: 5px; }
+  .button-container button:hover {
+    cursor: pointer; }
+  .button-container .ios-button {
+    background-color: #FF0044;
+    border: #FF0044;
+    color: #FFF;
+    transition: all .5s; }
+  .button-container .ios-button:hover {
+    background-color: #d60039;
+    border: #d60039; }
+  .button-container .android-button {
+    transition: all .5s;
+    color: #FF0044; }
+  .button-container .android-button:hover {
+    background-color: #e6e6e6; }
+
+.about-heading, .about-wrapper {
+  margin: 0;
+  padding: 0; }
+
+.about-wrapper {
+  padding: 50px 0; }
+
+@media screen and (min-width: 769px) {
+  .feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .feature-container div {
+      max-width: 350px;
+      min-width: 350px;
+      margin: 10px; } }
+
+.about-heading h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2rem; }
+.about-heading .border {
+  margin: 0;
+  padding: 0;
+  height: 5px;
+  max-width: 100px;
+  margin: 2px auto;
+  background-color: #FF0044; }
+
+.feature-container {
+  margin: 0;
+  padding: 0;
+  margin: 20px 10px;
+  padding: 30px 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center; }
+  .feature-container .icon, .feature-container h3 {
+    margin: 0;
+    padding: 0; }
+  .feature-container .icon {
+    font-size: 3rem;
+    color: #FF0044;
+    margin: 20px 0; }
+  .feature-container h3 {
+    font-size: 1.75rem;
+    transition: all .5s; }
+  .feature-container p {
+    color: #000;
+    transition: all .5s; }
+
+.search-section, .validate-section, .review-section {
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  background-image: linear-gradient(to left, transparent, transparent 50%, #F3FBFF 50%, #F3FBFF);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all .25s ease-in; }
+
+.icon {
+  transition: all .5s; }
+
+.search-section:hover, .validate-section:hover, .review-section:hover {
+  background-position: 0 0; }
+
+.search-section:hover .icon, .validate-section:hover .icon, .review-section:hover .icon {
+  color: #000; }
+
+.search-section:hover h3, .validate-section:hover h3, .review-section:hover h3 {
+  color: #FF0044; }
+
+.search-section:hover p, .validate-section:hover p, .review-section:hover p {
+  color: #000; }
+
 /*# sourceMappingURL=styles.css.map */

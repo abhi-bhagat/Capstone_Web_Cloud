@@ -1,0 +1,114 @@
+.about-heading, .about-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.about-wrapper {
+  padding: 50px 0;
+}
+
+.feature-container{
+
+  @media screen and (min-width: 769px) {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+    div {
+      max-width: 350px;
+      min-width: 350px;
+      margin: 10px;
+    }
+  }
+
+}
+
+.about-heading{
+  h2{
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .border{
+    margin: 0;
+    padding: 0;
+
+    height: 5px;
+    max-width: 100px;
+    margin: 2px auto;
+
+    background-color: $primary_color;
+  }
+}
+
+.feature-container{
+  margin: 0;
+  padding: 0;
+
+  margin: 20px 10px;
+  padding: 30px 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  text-align: center;
+
+  .icon, h3{
+    margin: 0;
+    padding: 0;
+  }
+
+  .icon {
+    font-size: 3rem;
+    color: $primary_color;
+
+    margin: 20px 0;
+  }
+
+  h3{
+    font-size: 1.75rem;
+    transition: all .5s;
+  }
+
+  p{
+    color: #000;
+    transition: all .5s;
+  }
+}
+
+.search-section, .validate-section, .review-section {
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: #FFF;
+  border: 1px solid #DDD;
+
+  background-image: linear-gradient(to left, transparent, transparent 50%, $secondary_color 50%, $secondary_color);
+  background-position: 100% 0;
+  background-size: 200% 100%;
+
+  transition: all .25s ease-in;
+}
+
+.icon{
+  transition: all .5s;
+}
+
+.search-section:hover, .validate-section:hover, .review-section:hover {
+  background-position: 0 0;
+}
+
+.search-section:hover .icon, .validate-section:hover .icon, .review-section:hover .icon {
+  color: #000;
+}
+
+.search-section:hover h3, .validate-section:hover h3, .review-section:hover h3 {
+  color: $primary_color;
+}
+
+.search-section:hover p, .validate-section:hover p, .review-section:hover p {
+  color: #000;
+}
