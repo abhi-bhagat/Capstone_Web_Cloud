@@ -23,6 +23,16 @@
     }
   }
 
+  @media screen and (min-width: 770px) and (max-width: 864px) {
+    div{
+      max-width: 500px;
+      min-width: 500px;
+
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
 }
 
 .about-heading{

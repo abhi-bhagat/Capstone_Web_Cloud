@@ -189,6 +189,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
       max-width: 350px;
       min-width: 350px;
       margin: 10px; } }
+@media screen and (min-width: 770px) and (max-width: 864px) {
+  .feature-container div {
+    max-width: 500px;
+    min-width: 500px;
+    margin-left: 20px;
+    margin-right: 20px; } }
 
 .about-heading h2 {
   margin: 0;
