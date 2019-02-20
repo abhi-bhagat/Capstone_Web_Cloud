@@ -1,0 +1,85 @@
+
+.intro-section {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+
+  padding: 100px 10px;
+  box-sizing: border-box;
+  @media screen and (min-width: 769px) {
+    padding: 100px 200px;
+    box-sizing: border-box;
+  }
+  @media screen and (min-width: 770px) and (max-width: 955px){
+    padding: 100px;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  h1, p {
+    margin: 0;
+    padding: 0;
+
+    margin: 15px 0;
+  }
+
+  h1{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  p{
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+.button-container {
+  margin: 0;
+  padding: 0;
+
+  margin: 20px 0;
+
+  @media screen and (min-width: 769px) {
+    margin: 50px 0;
+  }
+
+  button {
+    padding: 10px 20px;
+    margin: 0 10px;
+
+    font-size: 1.25rem;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .ios-button{
+    background-color: $primary_color;
+    border: $primary_color;
+    color: #FFF;
+
+    transition: all .5s;
+  }
+
+  .ios-button:hover {
+    background-color: darken($primary_color, 8%);
+    border: darken($primary_color, 8%);
+  }
+
+  .android-button{
+    transition: all .5s;
+    color: $primary_color;
+  }
+
+  .android-button:hover {
+    background-color: darken(#FFF, 10%);
+  }
+}

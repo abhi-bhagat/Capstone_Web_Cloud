@@ -1,8 +1,11 @@
 import React from 'react'
+import About from '../body/About'
 
 const Home = () => (
   <div className="main">
-    <p>From main</p>
+
+    <About />
+
   </div>
 )
 
