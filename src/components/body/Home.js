@@ -6,6 +6,7 @@ import Download from '../body/Download'
 import Team from '../body/Team'
 
 import Card from '@material-ui/core/Card';
+import About from '../body/About'
 
 // import { flexbox } from '@material-ui/system';
 
@@ -20,6 +21,8 @@ const Home = () => (
                 alt="headerimage"
             />
         </div>
+
+        <About />
 <Download />
 
 < Team />
