@@ -1,0 +1,177 @@
+.ul-container {
+  display: none;
+
+  @media screen and (min-width: 769px) {
+    display: block;
+    transition: background-color 250ms linear;
+
+  }
+
+padding:.5rem 2rem .5rem 2rem;
+
+
+
+}
+
+.primary-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+
+  li {
+    flex-basis: 150px;
+
+    background-color: transparent;
+
+
+  }
+
+  li:first-child {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  li a{
+    text-decoration: none;
+    color: $secondary_color;
+    text-align: center;
+    display: block;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+    transition: all .5s;
+  }
+
+  li a:hover {
+    // background-color: $tertiary_color; //light color
+    color: $tertiary_color; //dark black color
+  }
+}
+
+.menu-container, .bm-burger-button{
+
+  display: block !important;
+
+  @media screen and (min-width: 768px){
+    display: none !important;
+  }
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  right: 20px;
+  top: 20px;
+  display: block;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: $primary_color;  //dark black color
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: $primary_color;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #F3FBFF; //light color
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: absolute;
+  height: 100vh !important;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: $primary_color; //black color
+
+  font-size: 1rem !important;
+  width: 100% !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: $primary_color; //dark black color
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  right: 0 !important;
+  width: 100% !important;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  margin-top: 40px;
+
+  left: 0 !important;
+  width: 100% !important;
+}
+
+/* Individual item */
+.bm-item {
+  color: #F3FBFF; //light color
+  font-size: 1.25rem;
+
+  padding: 20px 30px;
+  box-sizing: border-box;
+
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.bm-item:hover {
+  // background-color: $tertiary_color; //light color
+  color: $tertiary_color; //dark black color
+}
+
+
+.ul-container-scrolled{
+  background-color:$primary_color !important;
+  transition: background-color 250ms linear;
+
+  .download{
+    // background-color: $tertiary_color;
+    transition: border 250ms linear;
+
+
+    border: 1px solid #1eb858;
+    border-radius: 100px;
+
+  }
+
+  .download a:hover{
+    color: $secondary_color;
+  }
+}

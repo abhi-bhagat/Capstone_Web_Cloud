@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+.site-header {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  position: sticky; }
+
+p {
+  color: red; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.ul-container {
+  display: none;
+  padding: .5rem 2rem .5rem 2rem; }
+  @media screen and (min-width: 769px) {
+    .ul-container {
+      display: block;
+      transition: background-color 250ms linear; } }
+
+.primary-menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start; }
+  .primary-menu li {
+    flex-basis: 150px;
+    background-color: transparent; }
+  .primary-menu li:first-child {
+    flex-grow: 1;
+    flex-shrink: 1; }
+  .primary-menu li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    transition: all .5s; }
+  .primary-menu li a:hover {
+    color: #1eb858; }
+
+.menu-container, .bm-burger-button {
+  display: block !important; }
+  @media screen and (min-width: 768px) {
+    .menu-container, .bm-burger-button {
+      display: none !important; } }
+
+.icon {
+  margin-right: 5px; }
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  right: 20px;
+  top: 20px;
+  display: block; }
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #000; }
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #000; }
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px; }
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #F3FBFF; }
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: absolute;
+  height: 100vh !important;
+  width: 100%;
+  top: 0;
+  right: 0; }
+
+/* General sidebar styles */
+.bm-menu {
+  background: #000;
+  font-size: 1rem !important;
+  width: 100% !important; }
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #000;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  right: 0 !important;
+  width: 100% !important; }
+
+/* Wrapper for item list */
+.bm-item-list {
+  margin-top: 40px;
+  left: 0 !important;
+  width: 100% !important; }
+
+/* Individual item */
+.bm-item {
+  color: #F3FBFF;
+  font-size: 1.25rem;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: all .5s; }
+
+.bm-item:hover {
+  color: #1eb858; }
+
+.ul-container-scrolled {
+  background-color: #000 !important;
+  transition: background-color 250ms linear; }
+  .ul-container-scrolled .download {
+    transition: border 250ms linear;
+    border: 1px solid #1eb858;
+    border-radius: 100px; }
+  .ul-container-scrolled .download a:hover {
+    color: #fff; }
+
+.title-working, .title-step {
+  text-align: center;
+  font-family: 'Staatliches', cursive; }
+
+.title {
+  margin: 4rem 0 6rem 0;
+  font-size: 3rem;
+  font-weight: 600; }
+
+.title-step p {
+  color: grey; }
+
+p {
+  color: black; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.img-header {
+  width: 100%;
+  height: 100vh;
+  margin-top: -5.75rem; }
+
+.download-component {
+  background-color: #eaeaea;
+  margin: 0;
+  padding: 4rem; }
+
+.download-app-content {
+  background-color: #eaeaea; }
+
+.awesome {
+  color: #1eb858; }
+
+.download-heading {
+  font-size: 2.5rem;
+  text-align: center; }
+
+.download-subheading {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #abafb8; }
+
+.download-app-content-icons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.iOS, .android {
+  margin: 2rem;
+  padding: 0; }
+
+.test-img {
+  height: 100px; }
+
+.team-heading {
+  font-size: 2.5rem;
+  text-align: center; }
+
+.amazing {
+  color: #1eb858; }
+
+.carousal-component {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.team-heading {
+  background-color: #e5e5e5;
+  margin: 0;
+  padding: 1.5rem; }
+
+/*# sourceMappingURL=styles.css.map */

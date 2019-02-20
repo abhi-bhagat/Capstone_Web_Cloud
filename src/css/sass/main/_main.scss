@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+.title-working,.title-step
+{
+  text-align: center;
+  // font-family: 'Josefin Sans', cursive;
+  font-family: 'Staatliches', cursive;
+
+}
+.title{
+margin:4rem 0 6rem 0;
+font-size: 3rem;
+font-weight: 600;
+}
+
+.title-step{
+  p{
+    color: grey;
+  }
+}
+p{
+  color: black;
+}
+body
+{
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.img-header{
+  width: 100%;
+  height: 100vh;
+
+  margin-top: -5.75rem;
+}
+
+
+// Download.js  css
+
+
+.download-component{
+  background-color: #eaeaea;
+  margin:0;
+  padding:4rem;
+}
+
+.download-app-content{
+  background-color: #eaeaea;
+
+}
+.awesome{
+  color : $tertiary_color;
+}
+
+.download-heading{
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.download-subheading{
+  font-size:1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #abafb8;
+
+}
+.download-app-content-icons{
+  display: flex;
+  // border:1px solid red;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.iOS, .android{
+  margin: 2rem;
+  padding: 0;
+  // border:1px solid green;
+
+}
+.test-img{
+  height: 100px;
+
+
+}
+
+
+
+
+
+
+
+//team
+
+.team-component{
+  // padding:1.5rem;
+}
+.team-heading{
+  font-size: 2.5rem;
+  text-align: center;
+  // padding-top:1.5rem;
+}
+.amazing{
+  color : $tertiary_color;
+}
+
+
+
+.carousal-component{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+.team-heading{
+  background-color: rgb(229,229,229);
+  margin:0;
+  padding:1.5rem;
+}

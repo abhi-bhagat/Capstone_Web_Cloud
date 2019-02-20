@@ -1,0 +1,12 @@
+//if you want to create another scss file then first create folder in sass folder and and inside that folder create partial file like "_filename.scss" and import that file here.
+
+// mixins and varibales will always come fist, do not change order in any conditions.
+@import "mixins/mixins";
+@import "variables/colors";
+@import "variables/typography";
+
+//header and footer files.
+@import "header/header";
+@import "header/menu";
+@import "footer/footer";
+@import "main/main";
