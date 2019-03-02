@@ -43,20 +43,42 @@ $(document).scroll(function(){
 
 "use strict";
 
-$('.next').click(function(){
-  $('.carousel').carousel('next');
-  return false;
+// $('.next').click(function(){
+//   $('.carousel').carousel('next');
+//   return false;
+// });
+//
+//
+// $('.prev').click(function(){
+//   $('.carousel').carousel('prev');
+//   return false;
+// });
+
+// (jQuery);
+$('.cd-testimonials-wrapper').flexslider({
+  selector: ".cd-testimonials > li",
+  animation: "slide",
+  controlNav: true,
+  slideshow: false,
+  smoothHeight: true,
+  start: function() {
+    $('.cd-testimonials').children('li').css({
+      'opacity': 1,
+      'position': 'relative'
+    });
+  }
+});
 });
 
+// testimony
+// jQuery(document).ready(function($) {
+// 	//create the slider
+//
+// });
 
-$('.prev').click(function(){
-  $('.carousel').carousel('prev');
-  return false;
-});
 
-(jQuery);
 
-});
+
 </script>
 
 

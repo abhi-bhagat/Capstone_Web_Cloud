@@ -8,13 +8,17 @@ import range from 'lodash/range';
 import ReactDOM from 'react-dom';
 import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 
 // import { library, icon } from '@fortawesome/fontawesome-svg-core'
 
 
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
-
+AOS.init();
   // import { flexbox } from '@material-ui/system';
 
   library.add(faMobile, faAngleRight,faMapMarkerAlt, faDollarSign, faUsers, faEnvelope, faAngleLeft)
@@ -28,7 +32,7 @@ import { Card, CardImg, CardText, CardBody,
     </div>
 
     <div className="team-pics container">
-        <div className="card item-1">
+        <div className="card item-1" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
                 src={'images/test.png'}
                 alt="headerimage"
@@ -70,7 +74,7 @@ import { Card, CardImg, CardText, CardBody,
 
 
 
-        <div className="card item-2">
+        <div className="card item-2" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
                 src={'images/test.png'}
                 alt="headerimage"
@@ -105,7 +109,7 @@ import { Card, CardImg, CardText, CardBody,
             </div>
         </div>
 
-        <div className="card item-3">
+        <div className="card item-3" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
                 src={'images/test.png'}
                 alt="headerimage"
@@ -140,7 +144,7 @@ import { Card, CardImg, CardText, CardBody,
             </div>
         </div>
 
-        <div className="card item-4">
+        <div className="card item-4" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
                 src={'images/test.png'}
                 alt="headerimage"
@@ -175,7 +179,7 @@ import { Card, CardImg, CardText, CardBody,
             </div>
         </div>
 
-        <div className="card item-5">
+        <div className="card item-5" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
                 src={'images/test.png'}
                 alt="headerimage"
@@ -210,7 +214,7 @@ import { Card, CardImg, CardText, CardBody,
             </div>
         </div>
 
-        <div className="card item-6">
+        <div className="card item-6" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
                 src={'images/test.png'}
                 alt="headerimage"

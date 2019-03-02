@@ -27,7 +27,7 @@ const Download = () => (
 
 
                 <a href="#"><img className="test-img"
-                    src={'images/iOS.png'}
+                    src={'images/ios2.png'}
                     alt="headerimage"
                 />  </a>
 
@@ -37,7 +37,7 @@ const Download = () => (
 
 
                 <a href="#"><img className="test-img"
-                    src={'images/android.png'}
+                    src={'images/android2.png'}
                     alt="headerimage"
                 />  </a>
         </div>
