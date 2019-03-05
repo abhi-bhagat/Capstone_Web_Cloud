@@ -4,6 +4,10 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const Testimony = () => (
 
+  <div className="testimony-container" >
+  <h2 class="testimony-heading">
+  what our <span className="awesome">awesome users </span>say
+</h2>
   <Carousel>
   <Carousel.Item>
     <img
@@ -42,6 +46,7 @@ const Testimony = () => (
   </Carousel.Item>
 </Carousel>
 
+</div>
 
 
 

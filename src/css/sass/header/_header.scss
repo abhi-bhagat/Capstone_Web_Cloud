@@ -2,12 +2,17 @@
   margin: 0;
   // border: 1px solid green;
   padding: 0;
+  z-index: 100;
   top:0;
   position: sticky;
 }
 .site-header{
   // color:red;
   // font-size: 3rem;
+}
+.main{
+
+  // background: grey;
 }
 p{
   color: red;
@@ -16,4 +21,43 @@ img{
   max-width: 100%;
   height: auto;
 
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,400px,0)
+    }
+
+    to {
+        transform: translate3d(0,150px,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,400px,0)
+    }
+
+    to {
+        transform: translate3d(0,150px,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 3s;
+    animation: FadeInUp 3s infinite alternate;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }

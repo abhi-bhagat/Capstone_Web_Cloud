@@ -1,3 +1,13 @@
+//
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+li{
+  list-style-type: none;
+}
 
 img{
   max-width: 100%;
@@ -42,14 +52,17 @@ body
 
   margin-top: -5.75rem;
 }
+// home
 
-
+.iphone-header{
+  overflow: hidden;
+}
 // Download.js  css
 
 
 .download-component{
   // background-color: #eaeaea;
-  border:1px solid red;
+  // border:1px solid red;
   margin:0;
   padding:4rem;
 }
@@ -107,7 +120,12 @@ body
 
 
 }
-
+.image-header{
+  margin-top: -5rem;
+  // padding: 4rem 0 0 0;
+  // height: 100vh;
+  // background-color: grey;
+}
 
 
 
@@ -248,10 +266,11 @@ body
 .about-wrapper {
 
   margin: 0;
-    padding: 20px 0;
-    border: 1px solid gray;
+    padding: 80px 0;
+    // border: 1px solid gray;
 
 }
+
 
 .feature-container{
 
@@ -376,21 +395,25 @@ body
   color: $secondary_color;
 }
 
+//downlaod
 
+.download-app-content {
+    padding: 60px 0;
+}
 
 // features
 
 .skin-1{
-  padding: 20px;
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-image: linear-gradient(to left, transparent, cyan 50%, $tertiary_color);
-  // background: url(".images/skin-1.jpg");
+  // background-image: linear-gradient(to left, transparent, cyan 50%, $tertiary_color);
+  // background-image: url("skin-1.jpg");
   // background-color: grey;
 
 }
 .features-listed{
-  padding: 30px;
+  padding: 30px 0 0 80px;
   .features-title{
     font-size: 26px;
     font-weight: 700;
@@ -405,10 +428,11 @@ body
     margin-bottom: 40px;
   }
   .features-list{
-    margin-bottom: 40px;
+    margin:0;
+    padding: 0;
 // position: relative;
 .list_item{
-  padding: 7px 0 7px 25px;
+  padding: 7px 0 7px 0;
     line-height: 25px;
     font-size: 16px;
 }
@@ -420,11 +444,12 @@ body
 .features-image{
   .image-class{
 
-    margin-left: 25%;
-    max-width: 300px;
+    margin-left: 20%;
+  max-width: 400px;
     // height: auto;
   }
   img{
+    // box-shadow: rgba(51, 51, 51, 0.35) 0px 5px 20px 0px;
     max-width: 100%;
     height: auto;
   }
@@ -435,15 +460,34 @@ body
     display: block;
   }
   .image-class{
-    margin:0 10%;
+    margin: 4rem 0 0 0 ;
+    margin-right: 10%;
+
+  }
+  .features-listed{
+    padding: 0px;
 
   }
 }
 
 
 
+
 // testimony carousel
+.carousel-indicators li{
+  background-color: black !important;
+}
+.testimony-container{
+  padding: 8rem 0;
+}
+.testimony-heading{
+  font-size: 1.75rem;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 5px;
+}
 .testimonial-container {
+  padding: 800px;
 	background-color: rgba(245, 245, 245, 1);
 	width: 100%;
 }
@@ -796,7 +840,13 @@ ul.cd-author-info li span {
   // justify-content: center;
 }
 
+@media screen and (max-width: 550px){
+  .mdbcontainer{
 
+    width: 100%;
+
+  }
+}
 @media screen and (min-width: 700px) {
   .form-container{
     display: flex;
@@ -838,3 +888,10 @@ box-shadow: none !important;;
   }
 
 }
+
+
+
+
+
+
+// subscribe

@@ -6,10 +6,12 @@ import Download from '../body/Download'
 import Team from '../body/Team'
 import Feature from '../body/Features'
 import Testimony from '../body/Testimony'
-
+import Subscribe from '../body/Subscribe'
 import Card from '@material-ui/core/Card';
 import About from '../body/About'
 import Contact from '../body/Contact'
+import Pricing from '../body/Pricing'
+// import SimpleMap from '../body/Map'
 
 
 
@@ -24,12 +26,18 @@ library.add(faMobile, faMapMarkerAlt, faDollarSign, faUsers, faEnvelope)
 
 const Home = () => (
   <div className="main">
-        <div className="image-header">
+        <div className="image-header" style ={ { backgroundImage: "url("+"images/headerimage3.jpg"+")" ,backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'} }>
+<div className="iphone-header" >
+<img className="animated animatedFadeInUp fadeInUp"
 
-            <img className="img-header"
-                src={'images/headerimage3.jpg'}
-                alt="headerimage"
-            />
+    // <img className="img-header"
+    src={'images/features-image.png'}
+    alt="headerimage"
+    />
+</div>
+
         </div>
 
         <About />
@@ -38,8 +46,10 @@ const Home = () => (
 <Testimony/>
 
 < Team />
-
+<Subscribe/>
+<Pricing/>
 <Contact />
+
 
 
   </div>
