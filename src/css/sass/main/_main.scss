@@ -56,6 +56,9 @@ body
 
 .iphone-header{
   overflow: hidden;
+  max-width: 320px;
+  margin-left: 6rem;
+  display: none;
 }
 // Download.js  css
 
@@ -122,8 +125,9 @@ body
 }
 .image-header{
   margin-top: -5rem;
+  // max-width: 350px;
   // padding: 4rem 0 0 0;
-  // height: 100vh;
+  height: 630px;
   // background-color: grey;
 }
 
@@ -895,3 +899,53 @@ box-shadow: none !important;;
 
 
 // subscribe
+
+
+//buttons
+
+.btn-success {
+  color: #fff;
+
+  background-color:#3498DB;
+  border-color: #3498DB;
+}
+.btn-success:hover {
+  color: #3498DB;
+
+  background-color:#fff;
+  border-color: #fff;
+  border:1px solid $tertiary_color;
+}
+
+.btn-outline-success {
+  color:  #3498DB;
+  border-color: #3498DB;
+}
+.btn-outline-success:hover {
+  color:  #fff;
+  background-color: #3498DB;
+  border: 1px solid $tertiary_color;
+}
+
+
+
+
+.social-icon-pic a {
+  color:$tertiary_color ;
+}
+.social-icon-pic a:hover {
+  color:$tertiary_color !important;
+}
+
+
+.list-item-secondary a:hover{
+  color:$tertiary_color;
+  text-decoration: none;
+
+}
+
+.list-item-secondary a{
+  color: #fff;
+  text-decoration: none;
+
+}

@@ -2,12 +2,12 @@ import React from 'react'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSearch, faStar, faAddressCard } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faStar, faAddressCard, faComment } from '@fortawesome/free-solid-svg-icons'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
-library.add(faSearch,faStar,faAddressCard)
+library.add(faSearch,faStar,faAddressCard, faComment )
 
 
 const About = () => (
@@ -28,9 +28,9 @@ const About = () => (
       </div>
 
       <div className="validate-section" data-aos="fade-up" data-aos-duration="3000">
-        <FontAwesomeIcon className="icon" icon="address-card" />
-        <h3>Never Worry About License</h3>
-        <p>We always make sure that you get the best service from licensed Tradesman!</p>
+        <FontAwesomeIcon className="icon" icon="comment" />
+        <h3>Talk to</h3>
+        <p>let the tradesman know what you need them for and discuss issue over the chat feature</p>
       </div>
 
       <div className="review-section" data-aos="fade-up" data-aos-duration="3000">

@@ -26,7 +26,7 @@ const Feature = () => (
   <div className="features-image">
   <div className="image-class">
   <img
-    src={'images/features-image.png'}
+    src={'images/features-image-bottom.png'}
         alt="headerimage"
     />
 

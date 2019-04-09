@@ -18,7 +18,7 @@ img {
   from {
     transform: translate3d(0, 400px, 0); }
   to {
-    transform: translate3d(0, 150px, 0);
+    transform: translate3d(0, 100px, 0);
     opacity: 1; } }
 @-webkit-keyframes fadeInUp {
   from {
@@ -74,7 +74,7 @@ img {
     box-sizing: border-box;
     transition: all .5s; }
   .primary-menu li a:hover {
-    color: #1eb858; }
+    color: #3498DB; }
 
 .menu-container, .bm-burger-button {
   display: block !important; }
@@ -153,17 +153,59 @@ Note: Beware of modifying this element as it can break the animations - you shou
   transition: all .5s; }
 
 .bm-item:hover {
-  color: #1eb858; }
+  color: #3498DB; }
 
 .ul-container-scrolled {
   background-color: #000 !important;
   transition: background-color 250ms linear; }
   .ul-container-scrolled .download {
     transition: border 250ms linear;
-    border: 1px solid #1eb858;
+    border: 1px solid #3498DB;
     border-radius: 100px; }
   .ul-container-scrolled .download a:hover {
+    color: #3498DB;
+    border: none;
+    border-radius: 100px; }
+  .ul-container-scrolled li a {
     color: #fff; }
+
+.secondary-menu-container {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 4rem 3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  background-color: #000; }
+
+.site-footer {
+  margin-top: 3rem; }
+
+.secondary-menu {
+  padding: 0; }
+
+.social-icons, .links {
+  display: flex;
+  justify-content: center; }
+
+.social-icons-container {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 1fr 1fr; }
+
+.social-icon-pic {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem; }
+  .social-icon-pic a {
+    color: #fff !important; }
+
+.footer-heading {
+  color: #3498DB; }
+
+.para-content p {
+  color: #fff; }
 
 html {
   scroll-behavior: smooth; }
@@ -198,14 +240,17 @@ body {
   margin-top: -5.75rem; }
 
 .iphone-header {
-  overflow: hidden; }
+  overflow: hidden;
+  max-width: 320px;
+  margin-left: 6rem;
+  display: none; }
 
 .download-component {
   margin: 0;
   padding: 4rem; }
 
 .awesome {
-  color: #1eb858; }
+  color: #3498DB; }
 
 .download-heading {
   font-size: 1.75rem;
@@ -239,7 +284,8 @@ body {
   height: 100px; }
 
 .image-header {
-  margin-top: -5rem; }
+  margin-top: -5rem;
+  height: 630px; }
 
 .team-heading {
   font-size: 2.5rem;
@@ -250,7 +296,7 @@ body {
   word-spacing: 5px; }
 
 .amazing, .fixin {
-  color: #1eb858; }
+  color: #3498DB; }
 
 .carousal-component {
   display: flex;
@@ -311,7 +357,7 @@ body {
   transition: box-shadow .25s ease; }
 
 .team-social-icon {
-  color: #1eb858; }
+  color: #3498DB; }
 
 .about-heading, .about-wrapper {
   margin: 25px 0;
@@ -352,7 +398,7 @@ body {
   height: 5px;
   max-width: 100px;
   margin: 2px auto;
-  background-color: #1eb858; }
+  background-color: #3498DB; }
 
 .feature-container {
   margin: 0;
@@ -367,7 +413,7 @@ body {
     padding: 0; }
   .feature-container .icon {
     font-size: 3rem;
-    color: #1eb858;
+    color: #3498DB;
     margin: 20px 0; }
   .feature-container h3 {
     font-size: 1.75rem;
@@ -381,7 +427,7 @@ body {
   margin: 20px 0;
   background-color: #FFF;
   border: 1px solid #DDD;
-  background-image: linear-gradient(to left, transparent, transparent 50%, #1eb858 50%, #1eb858);
+  background-image: linear-gradient(to left, transparent, transparent 50%, #3498DB 50%, #3498DB);
   background-position: 100% 0;
   background-size: 200% 100%;
   transition: all .25s ease-in; }
@@ -766,9 +812,43 @@ ul.cd-author-info li span {
   .send-button {
     width: 100%;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2); } }
+.btn-success {
+  color: #fff;
+  background-color: #3498DB;
+  border-color: #3498DB; }
+
+.btn-success:hover {
+  color: #3498DB;
+  background-color: #fff;
+  border-color: #fff;
+  border: 1px solid #3498DB; }
+
+.btn-outline-success {
+  color: #3498DB;
+  border-color: #3498DB; }
+
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #3498DB;
+  border: 1px solid #3498DB; }
+
+.social-icon-pic a {
+  color: #3498DB; }
+
+.social-icon-pic a:hover {
+  color: #3498DB !important; }
+
+.list-item-secondary a:hover {
+  color: #3498DB;
+  text-decoration: none; }
+
+.list-item-secondary a {
+  color: #fff;
+  text-decoration: none; }
+
 .check-icon {
   font-size: 15px;
-  color: #1eb858;
+  color: #3498DB;
   font-weight: 700; }
 
 .Subscribe-container {
@@ -789,7 +869,7 @@ ul.cd-author-info li span {
     left: 18px;
     top: 8px;
     font-size: 2rem;
-    color: #1eb858; }
+    color: #3498DB; }
   .subscribe-form .subscribe-division {
     position: relative; }
   .subscribe-form span.subscribe-color {

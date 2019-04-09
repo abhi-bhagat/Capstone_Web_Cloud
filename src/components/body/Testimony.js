@@ -17,7 +17,7 @@ const Testimony = () => (
     />
     <Carousel.Caption>
       <h3>Param</h3>
-      <p>This app is great</p>
+      {/* <p>This app is great</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -28,8 +28,8 @@ const Testimony = () => (
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      {/* <h3>Second slide label</h3> */}
+      {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -40,8 +40,8 @@ const Testimony = () => (
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      {/* <h3>Third slide label</h3> */}
+      {/* <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

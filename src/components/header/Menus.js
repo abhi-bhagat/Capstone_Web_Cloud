@@ -15,7 +15,11 @@ const Menus = () => (
     <ul className="primary-menu">
 
       <li className="list-item">
-        <a href="#">Logo</a>
+      <a href="#"><img className="test-img"
+                    src={'images/log.png'}
+                    alt="headerimage"
+                />  </a>
+
 
       </li>
       <li className="list-item about">

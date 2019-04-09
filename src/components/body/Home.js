@@ -26,13 +26,12 @@ library.add(faMobile, faMapMarkerAlt, faDollarSign, faUsers, faEnvelope)
 
 const Home = () => (
   <div className="main">
-        <div className="image-header" style ={ { backgroundImage: "url("+"images/headerimage3.jpg"+")" ,backgroundPosition: 'center',
+        <div className="image-header" style ={ { backgroundImage: "url("+"images/headerimage1.jpg"+")" ,backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'} }>
 <div className="iphone-header" >
 <img className="animated animatedFadeInUp fadeInUp"
 
-    // <img className="img-header"
     src={'images/features-image.png'}
     alt="headerimage"
     />

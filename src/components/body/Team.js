@@ -80,8 +80,8 @@ AOS.init();
                 alt="headerimage"
             />
             <div class="card-body">
-            <h5 className="card-title">Abhishek Bhagat</h5>
-            <p className="card-text">Developer</p>
+            <h5 className="card-title">Paramdeep Singh</h5>
+            <p className="card-text">Project Manager</p>
             <div className="team-social">
                 <ul className=" container team-social-ul">
 
@@ -115,8 +115,8 @@ AOS.init();
                 alt="headerimage"
             />
             <div class="card-body">
-            <h5 className="card-title">Abhishek Bhagat</h5>
-            <p className="card-text">Developer</p>
+            <h5 className="card-title">Meet Madhu</h5>
+            <p className="card-text">iOS Developer</p>
             <div className="team-social">
                 <ul className=" container team-social-ul">
 
@@ -150,8 +150,8 @@ AOS.init();
                 alt="headerimage"
             />
             <div class="card-body">
-            <h5 className="card-title">Abhishek Bhagat</h5>
-            <p className="card-text">Developer</p>
+            <h5 className="card-title">Bikramjit Singh</h5>
+            <p className="card-text">Lead Designer</p>
             <div className="team-social">
                 <ul className=" container team-social-ul">
 
@@ -185,8 +185,8 @@ AOS.init();
                 alt="headerimage"
             />
             <div class="card-body">
-            <h5 className="card-title">Abhishek Bhagat</h5>
-            <p className="card-text">Developer</p>
+            <h5 className="card-title">Angad Singh</h5>
+            <p className="card-text">FrontEnd Developer</p>
             <div className="team-social">
                 <ul className=" container team-social-ul">
 
@@ -220,8 +220,8 @@ AOS.init();
                 alt="headerimage"
             />
             <div class="card-body">
-            <h5 className="card-title">Abhishek Bhagat</h5>
-            <p className="card-text">Developer</p>
+            <h5 className="card-title">Gurwinder Singh</h5>
+            <p className="card-text">Quality Analyst</p>
             <div className="team-social">
                 <ul className=" container team-social-ul">
 

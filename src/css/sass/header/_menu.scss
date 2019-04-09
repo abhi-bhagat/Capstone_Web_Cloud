@@ -167,12 +167,22 @@ Note: Beware of modifying this element as it can break the animations - you shou
     transition: border 250ms linear;
 
 
-    border: 1px solid #1eb858;
+    border: 1px solid $tertiary_color;
     border-radius: 100px;
 
   }
 
   .download a:hover{
-    color: $secondary_color;
+    color: $tertiary_color;
+    // border: 1px solid black;
+    border:none;
+    border-radius: 100px;
+    
+  }
+
+  li a{
+  
+    color:$secondary_color;
+    
   }
 }
