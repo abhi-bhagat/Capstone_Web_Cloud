@@ -216,7 +216,7 @@ AOS.init();
 
         <div className="card item-6" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
-                src={'images/test.png'}
+                src={'images/guri.jpg'}
                 alt="headerimage"
             />
             <div class="card-body">

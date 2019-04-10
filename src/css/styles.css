@@ -241,7 +241,9 @@ p {
   color: black; }
 
 body {
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  max-width: 1275px;
+  margin: 0 auto; }
 
 .img-header {
   width: 100%;
