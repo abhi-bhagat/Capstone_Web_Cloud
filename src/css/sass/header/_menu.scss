@@ -164,14 +164,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .download{
     // background-color: $tertiary_color;
-    transition: border 250ms linear;
 
 
-    border: 1px solid $tertiary_color;
-    border-radius: 100px;
 
   }
 
+  .custom{
+    transition: border 250ms linear;
+
+    border: 1px solid $tertiary_color;
+    border-radius: 100px;
+  }
   .download a:hover{
     color: $tertiary_color;
     // border: 1px solid black;

@@ -23,15 +23,17 @@ Our awesome <span className="awesome">price plans</span>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">$0 <small className="text-muted">/ mo</small></h1>
               <ul className="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
+                <li>For Service Seekers</li>
+                <li>Chat feature</li>
+                <li>Access to all the available options</li>
+               
+
+               
               </ul>
               <button type="button" className="btn btn-lg btn-block btn-outline-success">Sign up for free</button>
             </div>
           </div>
-          <div className="card mb-4 shadow-sm">
+          {/* <div className="card mb-4 shadow-sm">
             <div className="card-header">
               <h4 className="my-0 font-weight-normal">Pro</h4>
             </div>
@@ -45,7 +47,7 @@ Our awesome <span className="awesome">price plans</span>
               </ul>
               <button type="button" className="btn btn-lg btn-block btn-success">Get started</button>
             </div>
-          </div>
+          </div> */}
           <div className="card mb-4 shadow-sm">
             <div className="card-header">
               <h4 className="my-0 font-weight-normal">Enterprise</h4>
@@ -53,10 +55,10 @@ Our awesome <span className="awesome">price plans</span>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">$29 <small className="text-muted">/ mo</small></h1>
               <ul className="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
+              <li>For Service Providers</li>
+                <li>Chat feature</li>
+                <li>Get Booking through applications</li>
+
               </ul>
               <button type="button" className="btn btn-lg btn-block btn-success">Contact us</button>
             </div>

@@ -56,3 +56,18 @@
     color: $secondary_color;
    }
 }
+
+
+@media only screen and (max-width: 500px) {
+    .secondary-menu-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        // background-color: red;
+        
+    }
+    .links{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+  }

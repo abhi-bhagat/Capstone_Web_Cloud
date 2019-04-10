@@ -16,7 +16,7 @@ const Menus = () => (
 
       <li className="list-item">
       <a href="#"><img className="test-img"
-                    src={'images/log.png'}
+                    src={'images/logo.png'}
                     alt="headerimage"
                 />  </a>
 
@@ -39,7 +39,7 @@ const Menus = () => (
         <a href="#">Contact</a>
       </li>
       <li className="list-item download">
-        <a href="#download-id">Download</a>
+        <a href="#download-id" class="custom">Download</a>
         
 
       </li>

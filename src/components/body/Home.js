@@ -29,12 +29,21 @@ const Home = () => (
         <div className="image-header" style ={ { backgroundImage: "url("+"images/headerimage1.jpg"+")" ,backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'} }>
-<div className="iphone-header" >
-<img className="animated animatedFadeInUp fadeInUp"
+<div className="title-header">
+<div className="logo-title">
+<p><img className="header-img"
+                    src={'images/logo.png'}
+                    alt="headerimage"/></p>
 
-    src={'images/features-image.png'}
-    alt="headerimage"
-    />
+
+<h2>
+  One stop <span className="solution">solution</span> to all your problems.
+</h2>
+</div>
+
+
+
+
 </div>
 
         </div>

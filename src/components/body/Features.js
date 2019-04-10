@@ -12,12 +12,12 @@ const Feature = () => (
 
       backgroundRepeat: 'no-repeat'} }>
   <div className="features-listed">
-  <h3 className="features-title">Lorem ipsum dolor sit amet, consectetuer.</h3>
-  <h4 className="features-subtitle">Lorem ipsum dolor sit amet</h4>
+  <h3 className="features-title">Fixin to help you out!</h3>
+  {/* <h4 className="features-subtitle">Lorem ipsum dolor sit amet</h4> */}
   <ul className="features-list">
-  <li className="list_item"><FontAwesomeIcon className="icon check-icon" icon="check" />sed te dolorum fuisset signiferumque, vis laoreet voluptatum</li>
-  <li className="list_item"><FontAwesomeIcon className="icon check-icon" icon="check" />sed te dolorum fuisset signiferumque, vis laoreet voluptatum</li>
-  <li className="list_item"><FontAwesomeIcon className="icon check-icon" icon="check" />sed te dolorum fuisset signiferumque, vis laoreet voluptatum</li>
+  <li className="list_item"><FontAwesomeIcon className="icon check-icon" icon="check" />Find the best tradesperson from a <span className="highlight">list of options</span></li>
+  <li className="list_item"><FontAwesomeIcon className="icon check-icon" icon="check" />Find according to the<span className="highlight">reviews and ratings.</span> </li>
+  <li className="list_item"><FontAwesomeIcon className="icon check-icon" icon="check" />Find in your <span className="highlight">budget</span></li>
 
   </ul>
 

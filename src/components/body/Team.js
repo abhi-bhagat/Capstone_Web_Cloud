@@ -34,7 +34,7 @@ AOS.init();
     <div className="team-pics container">
         <div className="card item-1" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
-                src={'images/test.png'}
+                src={'images/abhi.jpg'}
                 alt="headerimage"
             />
             <div className="card-body">
@@ -76,7 +76,7 @@ AOS.init();
 
         <div className="card item-2" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
-                src={'images/test.png'}
+                src={'images/param.jpg'}
                 alt="headerimage"
             />
             <div class="card-body">
