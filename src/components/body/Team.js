@@ -111,7 +111,7 @@ AOS.init();
 
         <div className="card item-3" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
-                src={'images/test.png'}
+                src={'images/meet.jpg'}
                 alt="headerimage"
             />
             <div class="card-body">
@@ -146,7 +146,7 @@ AOS.init();
 
         <div className="card item-4" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
-                src={'images/test.png'}
+                src={'images/bikram.png'}
                 alt="headerimage"
             />
             <div class="card-body">
@@ -181,7 +181,7 @@ AOS.init();
 
         <div className="card item-5" data-aos="fade-up" data-aos-duration="2000">
             <img className="card-img-top"
-                src={'images/test.png'}
+                src={'images/angad.jpg'}
                 alt="headerimage"
             />
             <div class="card-body">
